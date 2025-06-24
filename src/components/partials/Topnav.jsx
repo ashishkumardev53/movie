@@ -1,7 +1,7 @@
 import axios from "../../utils/axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import noImage from "/noImage.jpeg";
+// import noImage from "/noImage.jpeg";
 
 const Topnav = () => {
   const [query, setquery] = useState("");
@@ -54,7 +54,7 @@ const Topnav = () => {
                   ? `https://image.tmdb.org/t/p/original/${
                       s.backdrop_path || s.profile_path
                     }`
-                  : noImage
+                  : '/noImage.jpeg'
               }
               alt=""
             />
