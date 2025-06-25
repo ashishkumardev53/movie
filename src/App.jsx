@@ -9,7 +9,7 @@ import About from "./components/About";
 import Contactus from "./components/Contactus";
 import TvDetails from "./components/TvDetails";
 import PersonDetails from "./components/PersonDetails";
-import MovieDetails from "./components/Moviedetails";
+import MovieDetails from "./components/MovieDetails";
 import Trailer from "./components/partials/Trailer";
 import Notfound from "./components/Notfound";
 
